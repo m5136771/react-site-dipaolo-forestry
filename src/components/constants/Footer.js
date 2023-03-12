@@ -1,11 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
-import styled from "styled-components";
 import {Container as ContainerBase } from "../misc/Layouts"
 import logo from "../../assets/logo-badge.svg";
-import { ReactComponent as FacebookIcon } from "../../assets/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../assets/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../../assets/youtube-icon.svg";
 
 
 const Container = tw(ContainerBase)`bg-primary-200 text-white -mx-8 -mb-8`
@@ -18,14 +14,6 @@ const LogoImg = tw.img`w-full`;
 
 const LinksContainer = tw.div`mt-8 font-medium flex flex-wrap justify-center items-center flex-col sm:flex-row`
 const Link = tw.a`border-b-2 border-transparent hocus:text-primary-light hocus:border-primary-light pb-1 transition duration-300 mt-2 mx-4`;
-
-const SocialLinksContainer = tw.div`mt-10`;
-const SocialLink = styled.a`
-  ${tw`cursor-pointer inline-block text-white hover:text-primary-light transition duration-300 mx-4`}
-  svg {
-    ${tw`w-5 h-5`}
-  }
-`;
 
 const CopyrightText = tw.p`text-center mt-10 font-medium tracking-wide text-sm text-white`
 export default () => {
