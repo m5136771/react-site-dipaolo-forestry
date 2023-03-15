@@ -1,7 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
 import {Container as ContainerBase } from "../misc/Layouts"
-import logo from "../../assets/logo-badge.svg";
+import logo from "assets/logo-badge.svg";
 
 
 const Container = tw(ContainerBase)`bg-primary-200 text-white -mx-8 -mb-8`
